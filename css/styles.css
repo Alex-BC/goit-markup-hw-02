@@ -1,20 +1,92 @@
+/* Стили для index.html */
+
 /* основной цвет фона #FFFFFF */
 /* вторичный цвет фона #F5F4FA */
 /* цвет основного текста #757575 */
 /* вторичный цвет текста #212121 */
 /* белый #FFFFFF */
-/* акцент #2196F3 rgba(0, 0, 0, 0.15) */
+/* акцент #2196F3 */
 
 .page {
   color: #757575;
   background-color: #ffffff;
 }
 
-.site-nav a:hover,
-.site-nav a:focus {
+ul {
+  list-style: none;
+}
+
+.logo {
   color: #2196f3;
 }
 
-ul {
-  list-style: none;
+/* Site-nav */
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.site-nav .link.current {
+  color: #2196f3;
+}
+
+/* address */
+.address .item {
+  color: #757575;
+}
+
+.address .item:hover,
+address .item:focus {
+  color: #2196f3;
+}
+
+/* Hero */
+.hero-title {
+  color: #212121;
+}
+
+.hero .button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/* Section */
+.section-title {
+  color: #212121;
+}
+
+/* Features */
+
+.feature-list .icon:hover {
+  background-color: #2196f3;
+}
+
+.feature-list .title {
+  color: #212121;
+}
+
+/* Team */
+.team-list .title {
+  color: #212121;
+}
+
+/* Стили для portfolio.html */
+
+/* основной цвет фона #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+
+.job-filter .button {
+  color: #212121;
+}
+
+.job-filter .button:hover,
+.job-filter .button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
 }

@@ -14,33 +14,37 @@
         <a href="index.html" lang="en" class="logo">Web Studio</a>
 
         <ul class="site-nav">
-          <li><a href="index.html">Студия</a></li>
-          <li><a href="portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+          <li><a href="./index.html" class="link current">Студия</a></li>
+          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
 
-      <address>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+      <address class="address">
+        <a href="mailto:info@devstudio.com" class="item">info@devstudio.com</a>
+        <a href="tel:+380961111111" class="item">+38 096 111 11 11</a>
       </address>
     </header>
 
     <main>
       <!--Герой-->
-      <section>
-        <h1>эффективные решения для вашего бизнеса</h1>
-        <a href="">Заказать услугу</a>
+      <section class="hero">
+        <h1 class="hero-title">эффективные решения для вашего бизнеса</h1>
+        <a href="" class="button">Заказать услугу</a>
       </section>
 
       <!--Функции-->
-      <section>
+      <section class="section">
         <h2>Функции</h2>
 
-        <ul>
+        <ul class="feature-list">
           <li>
-            <img src="./img/Внимание-к-деталям.png" alt="Внимание к деталям" />
-            <h3>Внимание к деталям</h3>
+            <img
+              src="./img/Внимание-к-деталям.png"
+              alt="Внимание к деталям"
+              class="icon"
+            />
+            <h3 class="title">Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
@@ -48,8 +52,12 @@
           </li>
 
           <li>
-            <img src="./img/Пунктуальность.png" alt="Пунктуальность" />
-            <h3>Пунктуальность</h3>
+            <img
+              src="./img/Пунктуальность.png"
+              alt="Пунктуальность"
+              class="icon"
+            />
+            <h3 class="title">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
@@ -57,8 +65,8 @@
           </li>
 
           <li>
-            <img src="./img/Планирование.png" alt="Планирование" />
-            <h3>Планирование</h3>
+            <img src="./img/Планирование.png" alt="Планирование" class="icon" />
+            <h3 class="title">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
@@ -69,8 +77,9 @@
             <img
               src="./img/Современные-технологии.png"
               alt="Современные технологии"
+              class="icon"
             />
-            <h3>Современные технологии</h3>
+            <h3 class="title">Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -80,8 +89,8 @@
       </section>
 
       <!--Чем мы занимаемся-->
-      <section>
-        <h2>Чем мы занимаемся</h2>
+      <section class="section">
+        <h2 class="section-title">Чем мы занимаемся</h2>
 
         <ul>
           <li>
@@ -117,12 +126,12 @@
       </section>
 
       <!--Наша команда-->
-      <section>
-        <h2>Наша команда</h2>
-        <ul lang="en">
+      <section class="section">
+        <h2 class="section-title">Наша команда</h2>
+        <ul lang="en" class="team-list">
           <li>
             <img src="./img/John-Smith.jpg" alt="John Smith" />
-            <h3>John Smith</h3>
+            <h3 class="title">John Smith</h3>
             <p>Product Designer</p>
             <ul>
               <li><a href="" aria-label="Instagram link">Instagram</a></li>
@@ -134,7 +143,7 @@
 
           <li>
             <img src="./img/Marta-Stewart.jpg" alt="Marta Stewart" />
-            <h3>Marta Stewart</h3>
+            <h3 class="title">Marta Stewart</h3>
             <p>Frontend Developer</p>
             <ul>
               <li><a href="" aria-label="Instagram link">Instagram</a></li>
@@ -146,7 +155,7 @@
 
           <li>
             <img src="./img/Robert-Jakis.jpg" alt="Robert Jakis" />
-            <h3>Robert Jakis</h3>
+            <h3 class="title">Robert Jakis</h3>
             <p>Marketing</p>
             <ul>
               <li><a href="" aria-label="Instagram link">Instagram</a></li>
@@ -158,7 +167,7 @@
 
           <li>
             <img src="./img/Martin-Doe.jpg" alt="Martin Doe" />
-            <h3>Martin Doe</h3>
+            <h3 class="title">Martin Doe</h3>
             <p>UI Designer</p>
             <ul>
               <li><a href="" aria-label="Instagram link">Instagram</a></li>
@@ -171,8 +180,8 @@
       </section>
 
       <!--Постоянные клиенты-->
-      <section>
-        <h2>Постоянные клиенты</h2>
+      <section class="section">
+        <h2 class="section-title">Постоянные клиенты</h2>
 
         <ul>
           <li>
@@ -216,6 +225,11 @@
           <li><a href="" aria-label="Cсылка на Facebook">Facebook</a></li>
           <li><a href="" aria-label="Cсылка на LinkedIn">LinkedIn</a></li>
         </ul>
+      </div>
+
+      <div>
+        <p>Подпишитесь на рассылку</p>
+        <a href="" class="button">Подписаться</a>
       </div>
 
       <p>2020 Developed by GoIT Students</p>
