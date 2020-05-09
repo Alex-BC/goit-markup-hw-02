@@ -81,12 +81,12 @@ address .item:focus {
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
 
-.job-filter .button {
+.projects-filter .button {
   color: #212121;
 }
 
-.job-filter .button:hover,
-.job-filter .button:focus {
+.projects-filter .button:hover,
+.projects-filter .button:focus {
   color: #ffffff;
   background-color: #2196f3;
 }
