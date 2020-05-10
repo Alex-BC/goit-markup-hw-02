@@ -143,7 +143,7 @@ address .item:focus {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 
 .info {
@@ -151,7 +151,7 @@ address .item:focus {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /* color: rgba(255, 255, 255, 0.6); */
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 
@@ -173,7 +173,20 @@ address .item:focus {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  /* color: #FFFFFF; */
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.madeby {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
 }
 /* Стили для portfolio.html */
 
@@ -200,11 +213,28 @@ button {
   text-align: center;
 }
 
-.projects title {
+.projects .title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+}
+
+.projects .link {
   text-decoration: none;
+}
+
+.projects .subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+}
+
+.projects .text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  /* color: #ffffff; */
 }
