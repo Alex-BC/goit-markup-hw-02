@@ -188,6 +188,9 @@ address .item:focus {
   text-align: center;
   color: rgba(255, 255, 255, 0.4);
 }
+.logo-footer {
+  color: #ffffff;
+}
 /* Стили для portfolio.html */
 
 /* основной цвет фона #FFFFFF */
